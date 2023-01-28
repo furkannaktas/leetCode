@@ -11,7 +11,7 @@ public class Array_RemoveDuplicates {
 
 
     // solution 1
-    public static int[] removeDuplicates(int[] array){
+    public static int[] removeDuplicates1(int[] array){
         return Arrays.stream(array).distinct().toArray();
     }
 
@@ -33,8 +33,6 @@ public class Array_RemoveDuplicates {
         return array;
 
     }
-
-
 
 
 
